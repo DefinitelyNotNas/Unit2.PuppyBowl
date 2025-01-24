@@ -3,3 +3,81 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+img{
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto; 
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  width: 30%;
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+  margin: 10px 0;
+}
+
+
+.puppyCard img {
+  width: 90%;
+  object-fit: cover;
+}
+
+.puppyCard h2 {
+  font-size: 1.5rem;
+}
+
+.puppyCard p {
+  font-size: 1rem;
+}
+
+.puppyCard button {
+  align-self: center;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  padding: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+.puppyCard button:hover {
+  background-color: #e0e0e0;
+}
+
+.puppyCard button:active {
+  background-color: #d0d0d0;
+}
+
+#players {
+  margin: 0 auto;
+}
+
+.puppyCard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: xx-large;
+}
+.puppyCard2 img {
+  width: 90%;
+  object-fit: cover;
+}
